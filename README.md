@@ -250,10 +250,18 @@ v1の範囲外として、優先度の高い候補を分離しています。
 ├─ Validation.gs
 ├─ SheetUtils.gs
 ├─ appsscript.json
-├─ .clasp.json
 ├─ README.md
+├─ .gitignore
+├─ docs/
+│  └─ images/
+│     ├─ orders-valid.png
+│     ├─ orders-error.png
+│     ├─ execution-logs.png
+│     └─ success-email.png
 └─ sample-data/
    ├─ products.csv
    ├─ orders_raw.csv
    └─ expected-results.md
 ```
+
+`.clasp.json`はApps Scriptの接続先固有情報を含むため、ローカル開発用として保持し、Git管理対象外としています。
