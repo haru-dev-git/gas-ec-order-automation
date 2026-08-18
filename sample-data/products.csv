@@ -1,0 +1,6 @@
+product_code,product_name,unit_price,active
+P001,スタンダードマグカップ,1200,TRUE
+P002,コットントートバッグ,3500,TRUE
+P003,デスクノート,800,TRUE
+P004,旧型ボトル,1500,FALSE
+P005,ギフトカード,500,TRUE
